@@ -1,0 +1,62 @@
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 60px;
+    background: #ededed;
+    border-left: 1px solid #aaaaaa;
+}
+
+.header .headerContact {
+    margin: 10px 10px;
+}
+
+.chatBoxInput {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #f0f0f0;
+}
+
+.chatBoxInput input {
+    position: relative;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1em;
+}
+
+.chatBoxInput form {
+    padding-top: 5px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.chatBoxInput button {
+    margin: 10px 0px;
+}
+
+.chatBoxInput button:hover {
+    cursor: pointer;
+    background: #fffaef;
+
+}
+
+.chatBoxInput button:active{
+    animation: ease-in-out 0.3s;
+    background: #ffebc3;
+}
+
+
+.messagesBox {
+    position: relative;
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+}

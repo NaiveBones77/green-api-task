@@ -1,0 +1,16 @@
+
+.chatList {
+    position: relative;
+    overflow-y: auto;
+    height: calc(100% - 60px);
+}
+
+.chatList .linkNone {
+    text-decoration: none;
+}
+.active {
+    text-decoration: none;
+}
+.active ChatItem {
+    background: #ebebeb;
+}
