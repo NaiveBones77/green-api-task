@@ -5,4 +5,8 @@ export const useMessages = (chatId:string) => useTypedSelector(state => state.ch
     .filter(m => m.body.senderData.chatId === chatId))
 
 
-export const useLastMessage = () => useTypedSelector(state => state.chats.at(-1))
+export const useLastMessage = (chatId:string) => useTypedSelector(state => {
+    let filteredMessages = state.chats.filter(m => m.body.senderData.chatId === chatId)
+    filteredMessages.reverse()
+    return filteredMessages[0]
+})

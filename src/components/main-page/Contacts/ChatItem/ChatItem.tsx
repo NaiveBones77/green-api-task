@@ -9,7 +9,7 @@ interface IContactItem{
 
 const ChatItem = ({contact}:IContactItem) => {
 
-    const lastNotification = useLastMessage()
+    const lastNotification = useLastMessage(contact.chatId.concat('@c.us'))
     let lastMessage:string | undefined = ''
     let formattedTime = ' '
     if (lastNotification !== undefined) {
