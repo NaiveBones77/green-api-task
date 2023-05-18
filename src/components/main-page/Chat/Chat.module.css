@@ -28,6 +28,7 @@
     outline: none;
     border-radius: 30px;
     font-size: 1em;
+    padding-left: 20px;
 }
 
 .chatBoxInput form {
