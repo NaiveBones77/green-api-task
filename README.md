@@ -10,4 +10,4 @@
 ## Запустить проект в песочнице
 
 Для запуска проекта в песочнице перейдите на сайт https://codesandbox.io/s/github/NaiveBones77/green-api-task
-После загрузки и инициализации проекта откройте приложение в новом окне ![Screenshot](instructuon.png)
+После загрузки и инициализации проекта откройте приложение в новом окне ![Alt text]([instructuon.png](https://github.com/NaiveBones77/green-api-task/blob/master/instruction.png)
